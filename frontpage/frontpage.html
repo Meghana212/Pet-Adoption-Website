@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <head>
+        <title>Pet.find</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            #nbar,#sub{
+                background-color: #ee894e;
+            }
+            #sub{
+                border:1px solid #ee894e;
+            }
+            .nav-link,.navbar-brand{
+                color: white;
+            }
+            #login{
+                float:right;
+            }
+            body {
+                background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255,255,255,0.9)), url("main_img.jpg") no-repeat;
+                background-size: cover;
+            }
+            .main {
+                position:relative;
+                text-align:center;
+            }
+            .main_text {
+                color:#c74d0b;
+                position:absolute;
+                top:110px;
+                left:760px;
+                font-size:40px;
+                transform: translate(-50%, -50%);
+            }
+            img{
+                width:90px;
+                height:180px;
+            }
+            .links1 #first{
+                margin-left: 17%;
+            }
+            .links2 #first{
+                margin-left: 17%;
+            }
+            .links1 a{
+                position: relative;
+                margin-top: 15%;
+                margin-left: 4%;
+                float:left;
+            }
+            .links2 a{
+                position: relative;
+                margin-top: 3%;
+                margin-left: 4%;
+                float:left;
+            }
+            .card-body{
+                background-color:#ee894e; 
+            }
+            .card-body h5{
+                color:white;
+            }
+            a:hover .card-body{
+                background-color:#c74d0b;
+                text-decoration-color: white;
+            }
+            .links1 a:hover,.links2 a:hover{
+                text-decoration-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm justify-content-end fixed-top" id="nbar">
+            <a class="navbar-brand" href="#">Pet.find</a>
+            <a class="nav-item nav-link" href="#">About us</a>
+            <div class="collapse navbar-collapse flex-grow-0 ml-auto mr-1" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <div id="img"></div>
+            <div class="main_text">
+                Find your purrfect match!
+            </div>
+            <div class="links1">
+            <a href="#" id="first">
+                <div class="card" style="width: 18rem;">
+                <img src="dog.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Adopt a Dog</h5>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="">
+                    <div class="card" style="width: 18rem;">
+                    <img src="cat.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Adopt a Cat</h5>
+                    </div>
+                  </div>
+            </a>
+            <a href="#" class="">
+                    <div class="card" style="width: 18rem;">
+                    <img src="hamster.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Adopt a Hamster</h5>
+                    </div>
+                  </div>
+            </a>
+        </div>
+        <div class="links2">
+                <a href="#" id="first">
+                    <div class="card" style="width: 18rem;">
+                    <img src="bunny.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Adopt a Rabbit</h5>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="">
+                        <div class="card" style="width: 18rem;">
+                        <img src="guinea-pig.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Adopt a Guinea Pig</h5>
+                        </div>
+                      </div>
+                </a>
+                <a href="#" class="" style="margin-top:9%">
+                        <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Find other pets</h5>
+                        </div>
+                      </div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
