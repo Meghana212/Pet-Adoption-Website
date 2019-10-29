@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Pet Info
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<style>
+		#nbar,#sub{
+			background-color: #ee894e;
+		}
+		#sub{
+			border:1px solid #ee894e;
+		}
+		.nav-link,.navbar-brand{
+			color: white;
+		}
+		body{
+			background:linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url("dog.jpg") no-repeat;
+  			background-size: cover;
+		}
+		.card-deck{
+			margin-left: 0.9%;
+			margin-right:0.9%;
+			margin-top: 20px;
+		}
+		.card:hover{
+			border:1px solid #ee894e;
+			border-color:#ee894e;
+			color:white;
+			background-color: rgba(1,0,0,1);
+		}
+		form{
+			margin-left: 2%;
+			margin-top:100px;
+		}
+		#fom{
+			background:#ee894e;
+			border-color: #ee894e;
+		}
+		.form-group{
+			display: inline-block;
+			width: 28%;
+			margin-left: 1.5%
+		}
+		#find{
+			display: inline-flex;
+			width: 15%;
+			background-color: #ee894e;
+			border-color: #ee894e;
+		}
+	</style>
+
+</head>
+<header>
+		<nav class="navbar navbar-expand-sm justify-content-end fixed-top" id="nbar">
+	    <a class="navbar-brand" href="#">Pet.find</a>
+	    <a class="nav-item nav-link" href="#">About us</a>
+	    <div class="collapse navbar-collapse flex-grow-0 ml-auto mr-1" id="navbarSupportedContent">
+	        <ul class="navbar-nav text-right">
+	            <li class="nav-item active">
+	                <a class="nav-link" href="#">Login</a>
+	            </li>
+	            <li class="nav-item active">
+	                <a class="nav-link" href="#">Sign up</a>
+	            </li>
+	        </ul>
+	    </div>
+	</nav>
+</header>
+<body>
+	<form>
+	  <div class="form-group">
+	    <select class="form-control" id="exampleFormControlSelect1">
+	      <option selected>Breed</option>
+	      <option>2</option>
+	      <option>3</option>
+	      <option>4</option>
+	      <option>5</option>
+	    </select>
+	  </div>
+	  <div class="form-group">
+	    <select class="form-control" id="exampleFormControlSelect1">
+	      <option selected="">Location</option>
+	      <option>2</option>
+	      <option>3</option>
+	      <option>4</option>
+	      <option>5</option>
+	    </select>
+	  </div>
+	  <div class="form-group" id="btn">
+	  	<a href="#" class="btn btn-primary" id="find">Find</a>
+	  </div>
+	</form>
+	
+	<div class="card-deck">
+	  <div class="card">
+	    <img src="dog.jpg" class="card-img-top" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Golden Retriever</h5>
+	      <p class="card-text">Name:Bruno<br>Age:2 months<br></p>
+	    </div>
+	    <div class="card-footer">
+	      <a href="#" class="btn btn-primary" id="fom">Find out more</a>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img src="dog.jpg" class="card-img-top" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	    </div>
+	    <div class="card-footer">
+	      <a href="#" class="btn btn-primary" id="fom">Find out more</a>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img src="dog.jpg" class="card-img-top" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	    </div>
+	    <div class="card-footer">
+	      <a href="#" class="btn btn-primary" id="fom">Find out more</a>
+	    </div>
+  	   </div>
+	</div>
+</body>
+</html>
